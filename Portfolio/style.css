@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(255, 255, 255);
+}
+header {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    background-color: rgb(187, 42, 42);
+    width: 1200px;
+    border-radius: 10px;
+}
+.creditos {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    background-color: rgb(46, 46, 46);
+    width: 1200px;
+    border-radius: 10px;
+    color: white;
+}
+main {
+    background-color: #ffffff;
+    width: 1200px;
+    padding: 16px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgb(117, 117, 117);
+}
+.principal {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+.nome {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+a {
+    color: #ffffff;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 17px;
+}
+.foto {
+    width: 250px;
+}
+.projeto1 {
+    background-color: red;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    display: inline-block;
+}
+.projeto2 {
+    background-color: rgb(10, 143, 231);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    display: inline-block;
+}
+.foto1 {
+    width: 400px;
+    height: 200px;
+}
+.visualizar1 {
+    font-size: large;
+}
+.quemsou {
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+.quemsoufoto {
+    text-align: center;
+}

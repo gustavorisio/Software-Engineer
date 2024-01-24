@@ -1,0 +1,17 @@
+div {
+    display: inline-block;
+    background-color: rgba(116, 116, 116, 0.308);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: brown;
+}
+body {
+    background-color: wheat;
+    margin: 10px;
+    border: 50px;
+    padding: 50px;
+}
