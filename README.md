@@ -1,2 +1,3 @@
-<p>Aqui neste repositório irei atualiza-lo com arquivos e códigos feitos especialmente por mim.
-  Irei atualizar exercicios, desafios e também projetos públicos que considero relevantes utilizando demais linguagens.</p>
+<h1>Bem vindo(a) ao meu reposítorio publíco!</h1>
+<p>Aqui neste repositório irei atualiza-lo constantemente com novos códigos feitos especialmente por mim.
+<p>Irei atualizar exercicios, desafios e também projetos públicos que considero relevantes utilizando demais linguagens com o objetivo de melhorar meu estudo e conhecimento.</p>
