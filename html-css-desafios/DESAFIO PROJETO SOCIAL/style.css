@@ -38,10 +38,19 @@ section#telefone {
     width: 311px;
 }
 
+
 iframe#tela {
     position: relative;
     top: 50px;
     left: 22px;
     width: 263px;
     height: 498px;
+}
+
+
+section#rede-social img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px black;
 }
