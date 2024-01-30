@@ -2,9 +2,8 @@ body {
     background-color: black;
     background-image: url('/imagens/espaco.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
-    margin: auto;
     height: 100vh;
 }
 .astronauta {
