@@ -6,7 +6,7 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="cadastro.php" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -31,13 +31,18 @@
             <datalist id="lstprof">
                 <option value="Administracao">ADM</option>
                 <option value="Contabilidade">CONT</option>
-                <option value="Engenharia de Software">ENGSOFTWARE</option>
+                <option value="Engenharia de Software">ENGSOFT</option>
                 <option value="Analise e Desenvolvimento de Sistemas">ADS</option>
 
             </datalist>
+        <p>
+            <label for="imsg">Mensagem</label>
+            <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
         </p>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
     </form>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
 </body>
 </html>
