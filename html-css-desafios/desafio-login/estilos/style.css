@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: blueviolet;
+    width: 300px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+img{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+main > p {
+    font-size: 16.5px;
+    padding: 10px;
+}
+
+div#fundo { 
+    background-color: rgb(125, 0, 241);
+    border-radius: 15px;
+    text-align: center;
+}
+
+input {
+    background-color: rgb(36, 210, 223);
+    width: 255px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+}
+
+input#entrar {
+    background-color: rgb(36, 210, 223);
+    padding-bottom: 5px;
+}
+
+input#entrar:hover {
+    background-color: darkcyan;
+}
+
+input#esqueci:hover {
+    background-color: aqua;
+}
+
+input#esqueci {
+    background-color: white;
+    color:rgb(36, 210, 223)
+}
+
+span#icon {
+    color: white;  
+}
+
+div {
+    padding: 3px;
+}
+
+div#ientrar {
+    padding-top: 5px;
+    text-align: center;
+    display: block;   
+}
+
+div#iesqueci {
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+}
