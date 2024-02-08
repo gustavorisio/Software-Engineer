@@ -19,7 +19,7 @@ img{
     border-top-right-radius: 10px;
 }
 
-main {
+section {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: white;
@@ -27,12 +27,12 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-main > h1 {
+section > h1 {
     text-align: center;
     padding: 10px;
 }
 
-main > p {
+section > p {
     font-size: 16.5px;
     padding: 10px;
 }
@@ -44,8 +44,8 @@ div#fundo {
 }
 
 input {
-    background-color: rgb(36, 210, 223);
-    width: 255px;
+    background-color: rgb(77, 224, 235);
+    width: 88%;
     height: 35px;
     font-size: 16px;
     border-radius: 10px;
@@ -54,7 +54,6 @@ input {
 
 input#entrar {
     background-color: rgb(36, 210, 223);
-    padding-bottom: 5px;
 }
 
 input#entrar:hover {
@@ -75,17 +74,17 @@ span#icon {
 }
 
 div {
-    padding: 3px;
+    padding: 5px;
 }
 
 div#ientrar {
-    padding-top: 5px;
-    text-align: center;
+    padding-top: 3px;
     display: block;   
+    width: 100%;
 }
 
 div#iesqueci {
-    text-align: center;
+    width: 100%;
     display: block;
     padding-bottom: 30px;
 }
