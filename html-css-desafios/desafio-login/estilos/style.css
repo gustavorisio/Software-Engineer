@@ -46,14 +46,20 @@ div#fundo {
 input {
     background-color: rgb(77, 224, 235);
     width: 88%;
-    height: 35px;
+    height: 40px;
     font-size: 16px;
     border-radius: 10px;
     color: white;
+    border: none;
+    font-size: 1em;
 }
 
 input#entrar {
     background-color: rgb(36, 210, 223);
+    display: block;
+    border: none;
+    height: 40px;
+    width: 100%;
 }
 
 input#entrar:hover {
@@ -65,6 +71,7 @@ input#esqueci:hover {
 }
 
 input#esqueci {
+    border: none;
     background-color: white;
     color:rgb(36, 210, 223)
 }
@@ -78,13 +85,13 @@ div {
 }
 
 div#ientrar {
-    padding-top: 3px;
-    display: block;   
-    width: 100%;
+    display: block;  
+    text-align: center;
+    width: 97%;
 }
 
 div#iesqueci {
-    width: 100%;
     display: block;
-    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
 }
