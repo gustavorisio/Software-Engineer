@@ -13,7 +13,7 @@
 
 html, body {
     background-color: white;
-    width: 368px;
+    width: 400px;
     margin: auto;
 }
 
@@ -67,7 +67,10 @@ a:hover {
 
 #links-3 {
     text-align: center;
-    padding-bottom: 30px;
+}
+
+#services {
+    padding-top: 20px;
 }
 
 #service-text {
@@ -99,6 +102,10 @@ a:hover {
     display: inline-block;
 }
 
+#about-us {
+    padding-top: 20px;
+}
+
 #image-about-us {
     background: url(/projeto-hero-alom-it/imagens/about-us.png);
     width: 210px;
@@ -125,10 +132,13 @@ a:hover {
 
 #about-us-text > p {
     font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #about-us-text > li {
     font-size: 10px;
+    padding-bottom: 10px;
 }
 
 #link-2 {
@@ -142,5 +152,31 @@ a:hover {
 #link-2 > a {
     color: white;
     font-size: 10px;
+}
 
+#link-2:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+#quote {
+    padding-top: 30px;
+}
+
+#image-quote {
+    padding-top: 100px;
+    background: url(/projeto-hero-alom-it/imagens/about-project.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 400px;
+    height: 125px;
+}
+
+#image-quote > div > h1 {
+    padding-top: 45px;
+    width: 155px;
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-align: center;
+    
 }
