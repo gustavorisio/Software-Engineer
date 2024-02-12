@@ -4,59 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Alom IT</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <img src="/projeto-hero-alom-it/imagens/logo.png" alt="">
-        <a href="#">Home</a>
-        <a href="#">About US</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Pages</a>
-        <a href="#">Blog</a>
-        <a class="log-in" href="#">REGISTER</a>
-        <a class="register" href="#">LOG IN</a>
+        <br>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a class="log-in" href="#">REGISTER</a></li>
+                <li><a class="register" href="#">LOG IN</a></li>
+            </ul>
+        </menu>
     </header>
+
     <main>
-        <div>
-            <h1>CREATIVE YOUR SOLUTION</h1>
-            
-            <p>Helping businesses go online and grow bigger with high-tech web applications</p>
-
+        <div id="img-creative">
             <div>
-                <img src="../projeto-hero-alom-it/imagens/criativo.png" alt="">
-            </div>
-
-            <a href="#">1</a>  <a href="#">2</a>  <a href="#">3</a>
-        </div>
-
-        <div>
-            <h1>Services That Help You Grow</h1>
-
-            <div class="image-style">
-                <img src="../projeto-hero-alom-it/imagens/woman.png" alt="">
-            </div>
-
-            <div class="image-style">
-                <img src="../projeto-hero-alom-it/imagens/team-development.png" alt="">
+                <h1>CREATIVE YOUR SOLUTION</h1>
+                <br>
+                <p>Helping businesses go online and grow bigger with high-tech web applications</p>
             </div>
         </div>
 
-    <img src="../projeto-hero-alom-it/imagens/about-us.png" alt="">    
-    <h3>ABOUT US</h3>
-
-    <h1>A preferred Software Development Company</h1>
-
-    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from operation X is on the runway.</p>
-
-    <div class="lista">
-        <li>Information Security</li>
-        <li>Mobile Platforms</li>
-        <li>Data Synchonization</li>
+        <div id="links-3">
+            <a href="#">1</a>  
+            <a href="#">2</a>  
+            <a href="#">3</a>
         </div>
 
+        <div id="services">
+            <div id="service-text">
+                <h5>WHAT WE DO</h5>
+                <h1>Services That Help You Grow</h1>
+            </div>
+
+            <div id="image-style-1">
+            </div>
+
+            <div id="image-style-2">
+            </div>
+        </div>
+
+    <div id="about-us-software">
+        <div id="image-about-us">
+        </div>
+
+        <h3>ABOUT US</h3>
+        <h1>A preferred Software Development Company</h1>
+        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from operation X is on the runway.</p>
+
+        <div class="lista">
+            <li>Information Security</li>
+            <li>Mobile Platforms</li>
+            <li>Data Synchonization</li>
+        </div>
+
+        <div id="link-2">
+            <div>
+                <h1>Know More About Us</h1>
+            </div>
+        </div>
+    </div>
+    
     <div>
         <div>
             <h1>Do you have a project we can help with? we provide our best privacy & policy best idea!.</h1>
@@ -137,19 +156,26 @@
     <p>Ever Find Yourself Starring At Your Computer Screen A Good Consulting Slogan To Come To Mind? Oftentmes.</p>
     <div class="members">
         <div>
-            <h1>Member-1</h1>
+            <a href="">Member-1</a>
         </div>
     </div>
 
     <div class="members">
         <div>
-            <h1>Member-2</h1>
+            <a href="">Member-2</a>
+            <h2>CEO, Company</h2>
         </div>
     </div>
 
     <div class="members">
         <div>
-            <h1>Member-3</h1>
+            <a href="">Member-3</a>
+        </div>
+    </div>
+
+    <div class="members">
+        <div>
+            <a href="">Member-4</a>
         </div>
     </div>
 
@@ -217,6 +243,7 @@
     <div>
         <div class="l1">
             <img src="../projeto-hero-alom-it/imagens/footer-logo.png" alt="">
+            <br>
             <p>Our Office</p>
             <p>F#1B RD#SK,A05,SP</p>
             <p>Mail: info@polockinterior.com</p>
@@ -225,6 +252,7 @@
         
         <div class="l2">
             <p>SERVICES</p>
+            <br>
             <p>Digital Marketing Services</p>
             <p>SEO Services</p>
             <p>PPC Management</p>
@@ -236,6 +264,7 @@
 
         <div class="l3">
         <a href="#">KNOWLEDGE BASE</a>
+        <br>
         <a href="#">SEO Agency</a>
         <a href="#">PPC Agency</a>
         <a href="#">Content Marketing Agency</a>
@@ -243,10 +272,42 @@
         <a href="#">Industries We Serve</a>
         </div>
 
-        <div class="instagram"></div>
+        <div class="l4">
+            <p>INSTAGRAM</p>
+            <br>
+            <div class="instagram">
+            </div>
+        </div>
     </div>
-
     </main>
 
+    <footer>
+        <div>
+            <div>
+                <h6>2023 Blessing All rights reserved</h6>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function mudoutamanho() {
+            if (window.innerWidth >=768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

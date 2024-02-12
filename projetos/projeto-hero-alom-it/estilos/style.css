@@ -1,3 +1,10 @@
+/* Versão Mobile First */
+/*  pequenas telas: > 600px  */
+/*  Celular: 600px > 768px  */
+/*  Tablet 768px > 992px  */
+/*  Desktop 992px > 1200px  */
+/*  Grandes telas > 1200px*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,4 +13,101 @@
 
 html, body {
     background-color: white;
+    width: 368px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header > #burger {
+    background-color: rgb(143, 16, 16);
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+menu#itens {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+#img-creative {
+    background: url(/projeto-hero-alom-it/imagens/criativo.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-size: contain;
+    padding-bottom: 210px;
+}
+
+#img-creative > div > h1 {
+    font-size: 32px;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(146, 0, 0); 
+}
+
+#img-creative > div > p {
+    font-size: 16px;
+    color: rgb(31, 31, 31)
+}
+
+#links-3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#service-text {
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+    display: inline-block;
+}
+
+#service-text > h5 {
+    color: red;
+}
+
+#image-style-1 {
+    background: url(/projeto-hero-alom-it/imagens/woman.png);
+    background-size: cover;
+    background-position: center;
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+}
+
+#image-style-2 {
+    background: url(/projeto-hero-alom-it/imagens/team-development.png);
+    background-size: cover;
+    background-position: center;
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+}
+
+#about-us#software {
+
+}
+
+#image-about-us {
+    background: url(/projeto-hero-alom-it/imagens/about-us.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
 }
