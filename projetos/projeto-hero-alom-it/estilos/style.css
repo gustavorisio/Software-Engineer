@@ -83,7 +83,7 @@ a:hover {
 
 #image-style-1 {
     background: url(/projeto-hero-alom-it/imagens/woman.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     width: 125px;
     height: 125px;
@@ -92,22 +92,55 @@ a:hover {
 
 #image-style-2 {
     background: url(/projeto-hero-alom-it/imagens/team-development.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     width: 125px;
     height: 125px;
     display: inline-block;
 }
 
-#about-us#software {
-
-}
-
 #image-about-us {
     background: url(/projeto-hero-alom-it/imagens/about-us.png);
-    width: 200px;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
+    width: 210px;
+    height: 210px;
+    background-position: center center;
+    background-size: contain;
     display: inline-block;
+}
+
+#about-us-text {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+}
+
+#about-us-text > h1 {
+    font-size: 16px;
+}
+
+#about-us-text > h3 {
+    font-size: 8px;
+    color: red;
+}
+
+#about-us-text > p {
+    font-size: 10px;
+}
+
+#about-us-text > li {
+    font-size: 10px;
+}
+
+#link-2 {
+    background-color: rgb(170, 22, 22);
+    width: 100px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+}
+
+#link-2 > a {
+    color: white;
+    font-size: 10px;
+
 }
