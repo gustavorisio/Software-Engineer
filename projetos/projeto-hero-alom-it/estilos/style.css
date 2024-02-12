@@ -172,11 +172,35 @@ a:hover {
 }
 
 #image-quote > div > h1 {
-    padding-top: 45px;
-    width: 155px;
+    width: 300px;
     color: white;
     font-size: 12px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     text-align: center;
-    
+}
+
+#quote-text {
+    padding-left: 50px;
+    padding-top: 7px;
+}
+#link-3 {
+    background-color: rgb(170, 22, 22);
+    width: 80px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+}
+
+#link-3 > a {
+    color: white;
+    font-size: 10px;
+}
+
+#link-3:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+#link-3-center {
+    padding-top: 25px;
+    padding-left: 100px;
 }
