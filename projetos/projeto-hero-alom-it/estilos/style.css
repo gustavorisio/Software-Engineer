@@ -13,7 +13,7 @@
 
 html, body {
     background-color: white;
-    width: 400px;
+    width: 368px;
     margin: auto;
 }
 
@@ -169,12 +169,12 @@ a:hover {
     background: url(/projeto-hero-alom-it/imagens/about-project.jpg) no-repeat;
     background-size: cover;
     background-position: top;
-    width: 400px;
+    width: 368px;
     height: 125px;
 }
 
 #image-quote > div > h1 {
-    width: 300px;
+    width: 270px;
     color: white;
     font-size: 12px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -209,7 +209,8 @@ a:hover {
 }
 
 #why-choose-us {
-    width: 200px;
+    width: 170px;
+    padding-top: 30px;
     display: inline-block;
 }
 
@@ -251,4 +252,23 @@ a:hover {
 
 #choose > p {
     font-size: 10px;
+}
+
+#apps-developed {
+    background-color: rgb(173, 27, 27);
+    width: 368px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#apps-developed-content {
+    display: inline-block;
+    font-size: 13px;
+    padding-right: 19px;
+    padding-left: 10px;
+    color: white;
+}
+
+#apps-developed-content > p {
+    font-size: 20px;
 }
