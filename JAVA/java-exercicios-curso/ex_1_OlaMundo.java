@@ -11,14 +11,14 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
  */
 
 
-public class OlaMundo {
+public class ex_1_OlaMundo {
 
     public void exibeOla() {
         System.out.println("Ola, Mundo!");
     }
 
     public static void main(String args[]) {
-        OlaMundo obj = new OlaMundo();
+        ex_1_OlaMundo obj = new ex_1_OlaMundo();
         obj.exibeOla();
     }
 }

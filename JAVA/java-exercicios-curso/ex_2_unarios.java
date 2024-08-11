@@ -14,7 +14,7 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
     O programa abaixo mostra o uso de cada operador unário.
 
  */
-public class unarios {
+public class ex_2_unarios {
 
     public static void main(String args[]) {
         int x = 10, y = 0;

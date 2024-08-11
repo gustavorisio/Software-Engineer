@@ -10,7 +10,7 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
 
  */
 
- public class Deslocamento {
+ public class ex_3_binarios {
    public static void main (String args[]) {
       int x = 7, y =-7;
       System.out.println("x = " + x);
