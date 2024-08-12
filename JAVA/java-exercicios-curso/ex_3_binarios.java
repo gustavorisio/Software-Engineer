@@ -18,14 +18,14 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
    O programa abaixo mostra o uso desses operadores:
  */
 
- public class ex_3_binarios {
-   public static void main (String args[]) {
-      int x = 7, y =-7;
-      System.out.println("x = " + x);
-      System.out.println("y = " + y);
-      System.out.println("x << 1= " + (x<<1));
-      System.out.println("x >> 2= " + (x>>2));
-      System.out.println("y >> 2= " + (y>>2));
-      System.out.println("y >>> 31= " + (y>>>31));
-    }
-   }
+public class ex_3_binarios {
+  public static void main(String args[]) {
+    int x = 7, y = -7;
+    System.out.println("x = " + x);
+    System.out.println("y = " + y);
+    System.out.println("x << 1= " + (x << 1));
+    System.out.println("x >> 2= " + (x >> 2));
+    System.out.println("y >> 2= " + (y >> 2));
+    System.out.println("y >>> 31= " + (y >>> 31));
+  }
+}

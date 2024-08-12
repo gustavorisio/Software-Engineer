@@ -10,7 +10,6 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
     
  */
 
-
 public class ex_1_OlaMundo {
 
     public void exibeOla() {
