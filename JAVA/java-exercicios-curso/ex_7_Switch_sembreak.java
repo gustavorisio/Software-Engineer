@@ -11,17 +11,14 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
    Note que todos os comandos são executados, uma vez que não existe um comando break para interromper a execução.
    A omissão do comando break pode ser útil para poupar digitação naqueles casos onde mais de uma opção precisa executar a mesma sequência de comandos.
  */
-public class Switch_sembreak {
+public class ex_7_Switch_sembreak {
    public static void main (String args[]) {
-       char letra = 'i';
+       char letra = 'e';
        switch(letra)
        {
-       case 'i':
-    System.out.println("inserir");
-       case 'a':
-       case 'e':
-    System.out.println("alterar");
-    System.out.println("excluir");
+       case 'i': System.out.println("inserir");
+       case 'a': System.out.println("alterar");
+       case 'e': System.out.println("excluir");
        default: System.out.println(
                "Ação ignorada: "+letra);
        }
