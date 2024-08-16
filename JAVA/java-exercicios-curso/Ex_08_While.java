@@ -7,7 +7,7 @@ Este código foi digitado por Gustavo Di Risio | github.com/gustavorisio | linke
     o while; o do-while; e o for.
     Este código abaixo é a soma dos 100 primeiros números inteiros. O valor de x após o loop é: 5050.
 */
-public class Ex_08_While {
+public class ex_08_while {
     public static void main(String[] args) {
         int i = 1;
         int x = 0;
