@@ -16,3 +16,4 @@ class CreateUserController {
         return response.json({message: "Registro incluido com sucesso"});
     }
 }
+export { CreateUserController };

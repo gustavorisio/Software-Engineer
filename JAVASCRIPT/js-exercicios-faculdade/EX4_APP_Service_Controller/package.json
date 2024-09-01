@@ -9,5 +9,9 @@
   },
   "scripts": {
     "dev": "ts-node-dev src/server.ts"
-  }
+  },
+  "name": "EX4_APP_Service_Controller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }
