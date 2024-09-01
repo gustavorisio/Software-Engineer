@@ -1,6 +1,6 @@
 const express = require('express');
 
-const EX2_APP = express();
+const app = express();
 
 app.get("/", (request, response) => {
     return response.send("API no ar");
