@@ -1,20 +1,17 @@
-interface IUserRequest {
-    id?: number;
-    name: string;
-    email: string;
-    admin?: boolean;
-    password: string;
-}
+import { IUserRequest } from "../../interface/UserInterface";
 
 class UpdateUserService {
-    async execute({ name, email, admin = false, password }: IUserRequest) {
+    async execute({ id, name, email, admin = false, password }: IUserRequest) {
         if (!email) {
             throw new Error("Email Incorrect")
         }
-        if (!name) {
-            throw new Error("Name Incorrect")
+        if (!password) {
+            throw new Error("Password Incorrect")
         }
-        return { message: "Registro incluido com sucesso" };
+        var user = {
+            id: id, name: name, email:email, admin: admin, password: password 
+        }
+        return { message: "Registro Update com sucesso" };
     }
 }
 export { UpdateUserService };

@@ -1,18 +1,12 @@
-interface IUserRequest {
-    id?: number;
-    name: string;
-    email: string;
-    admin?: boolean;
-    password: string;
-}
+import { IUserRequest } from "../../interface/UserInterface";
 
 class CreateUserService {
     async execute({ name, email, admin = false, password }: IUserRequest) {
         if (!email) {
             throw new Error("Email Incorrect")
         }
-        if (!name) {
-            throw new Error("Name Incorrect")
+        if (!password) {
+            throw new Error("Password Incorrect")
         }
         return { message: "Registro incluido com sucesso" };
     }
